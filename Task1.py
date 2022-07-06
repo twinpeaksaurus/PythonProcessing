@@ -39,4 +39,4 @@ for call in calls:
         unique_numbers.append(call[1])
 
 
-print("There are " + len(unique_numbers) + " unique telephone numbers in the logs.")
+print("There are " + str(len(unique_numbers)) + " unique telephone numbers in the logs.")
