@@ -20,3 +20,9 @@ Print a message:
 September 2016.".
 """
 
+max = [0,0,0,0]
+
+for call in calls:
+    if int(call[3]) > int(max[3]):
+        max = call
+print(max[0] + " spent the longest time, " + (max[3]) + " seconds, on the phone during September 2016.")
